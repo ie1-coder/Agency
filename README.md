@@ -23,27 +23,34 @@ No database is required. The entire structure leverages Laravel’s templating s
 
 ---
 
-## Project Structure
+##  Project Structure
 
 /resources
-└── views/
-├── layouts/
-│ └── app.blade.php # Base HTML structure
-├── partials/
-│ ├── nav.blade.php # Responsive navbar with active-state detection
-│ └── footer.blade.php # Global footer with social links
-└── pages/
-├── home.blade.php # Hero section with gradient overlay
-├── services.blade.php
-├── portfolio.blade.php # Interactive grid with modal project details
-├── about.blade.php # Animated vertical timeline
-├── team.blade.php # Blade component: reusable team member cards
-└── contact.blade.php # SB Forms–ready contact form
---
-/public
-├── css/styles.css # Custom, cohesive stylesheet
-├── js/scripts.js
-└── assets/ # Images, logos, and icons (CC0 licensed)
+│── views/
+│   │── layouts/
+│   │   └── app.blade.php         # Base HTML layout
+│   │
+│   │── partials/
+│   │   ├── nav.blade.php         # Responsive navbar + active state
+│   │   └── footer.blade.php      # Global footer + social links
+│   │
+│   └── pages/
+│       ├── home.blade.php        # Hero section + gradient overlay
+│       ├── services.blade.php    # Services page layout
+│       ├── portfolio.blade.php   # Interactive project grid + modals
+│       ├── about.blade.php       # Animated vertical timeline
+│       ├── team.blade.php        # Reusable team member cards
+│       └── contact.blade.php     # SB Forms–ready contact form
+│
+└── public
+    │── css/
+    │   └── styles.css            # Cohesive custom stylesheet
+    │
+    │── js/
+    │   └── scripts.js            # Custom interactions + animations
+    │
+    └── assets/                   # Logos, icons, images (CC0)
+
 
 ---
 
@@ -113,7 +120,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 #  Author
-. Izzdden S. R. Alnouno
-. Email: azalden12390@gmail.com
-. GitHub: https://github.com/ie1-coder
+* Izzdden S. R. Alnouno
+* Email: azalden12390@gmail.com
+* GitHub: https://github.com/ie1-coder
 
