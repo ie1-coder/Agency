@@ -1,59 +1,140 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Agency – A Refined Laravel Implementation
+This project is a fully modular and visually enhanced adaptation of the Start Bootstrap Agency theme, rebuilt using Laravel Blade and Bootstrap 5. It is engineered for developers, designers, and creative professionals seeking a portfolio or agency website that balances aesthetic elegance with technical clarity. The interface features a refined dark palette, controlled typographic hierarchy, subtle interactive transitions, and a consistent golden accent (#fed136) that unifies the visual language across all sections.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+No database is required. The entire structure leverages Laravel’s templating system to deliver a clean, maintainable, and scalable frontend experience.
 
-## About Laravel
+Key Features
+Modular Blade Architecture: Layout, navigation, footer, and page-specific content are cleanly separated for maintainability.
+Multi-Page Structure: Dedicated views for Home, Services, Portfolio, About, Team, and Contact—all accessible via named Laravel routes.
+Fully Responsive: Optimized for all device sizes using Bootstrap 5’s responsive grid.
+Enhanced Visual Design:
+Deep background tones (#121212 and #1e1e1e) for visual depth
+Subtle hover animations and elevation effects on cards and buttons
+Consistent use of #fed136 for interactive elements and section accents
+Professional Typography:
+Montserrat for headings (clean, bold, uppercase)
+Roboto Slab for body text (serif, highly legible, refined)
+Integrated SB Forms: The contact form is pre-wired for activation via Start Bootstrap’s form service, with client-side validation and success/error handling.
+Reusable Components: The team section is implemented as a Blade component, enabling reuse across pages without duplication.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Project Structure
+/resources
+  └── views/
+      ├── layouts/
+      │   └── app.blade.php          # Base HTML structure
+      ├── partials/
+      │   ├── nav.blade.php          # Responsive navbar with active-state detection
+      │   └── footer.blade.php       # Global footer with social links
+      └── pages/
+          ├── home.blade.php         # Hero section with gradient overlay
+          ├── services.blade.php
+          ├── portfolio.blade.php    # Interactive grid with modal project details
+          ├── about.blade.php        # Animated vertical timeline
+          ├── team.blade.php         # Blade component: reusable team member cards
+          └── contact.blade.php      # SB Forms–ready contact form
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+/public
+  ├── css/styles.css               # Custom, cohesive stylesheet
+  ├── js/scripts.js
+  └── assets/                      # Images, logos, and icons (CC0 licensed)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  
+Qwen3-Max
+10:48 PM
+Certainly. Below is a complete, professional, and self-contained README.md written entirely in English, with zero emojis, no informal tone, and a refined technical presentation suitable for a polished GitHub repository.
 
-## Learning Laravel
+Agency – A Refined Laravel Implementation
+This project is a fully modular and visually enhanced adaptation of the Start Bootstrap Agency theme, rebuilt using Laravel Blade and Bootstrap 5. It is engineered for developers, designers, and creative professionals seeking a portfolio or agency website that balances aesthetic elegance with technical clarity. The interface features a refined dark palette, controlled typographic hierarchy, subtle interactive transitions, and a consistent golden accent (#fed136) that unifies the visual language across all sections.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+No database is required. The entire structure leverages Laravel’s templating system to deliver a clean, maintainable, and scalable frontend experience.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Key Features
+Modular Blade Architecture: Layout, navigation, footer, and page-specific content are cleanly separated for maintainability.
+Multi-Page Structure: Dedicated views for Home, Services, Portfolio, About, Team, and Contact—all accessible via named Laravel routes.
+Fully Responsive: Optimized for all device sizes using Bootstrap 5’s responsive grid.
+Enhanced Visual Design:
+Deep background tones (#121212 and #1e1e1e) for visual depth
+Subtle hover animations and elevation effects on cards and buttons
+Consistent use of #fed136 for interactive elements and section accents
+Professional Typography:
+Montserrat for headings (clean, bold, uppercase)
+Roboto Slab for body text (serif, highly legible, refined)
+Integrated SB Forms: The contact form is pre-wired for activation via Start Bootstrap’s form service, with client-side validation and success/error handling.
+Reusable Components: The team section is implemented as a Blade component, enabling reuse across pages without duplication.
+Project Structure
+12345678910111213141516171819
+/resources
+  └── views/
+      ├── layouts/
+      │   └── app.blade.php          # Base HTML structure
+      ├── partials/
+      │   ├── nav.blade.php          # Responsive navbar with active-state detection
+      │   └── footer.blade.php       # Global footer with social links
+      └── pages/
+          ├── home.blade.php         # Hero section with gradient overlay
+          ├── services.blade.php
 
-## Laravel Sponsors
+Getting Started
+Requirements
+.PHP 8.0 or higher
+.Composer
+.Basic familiarity with Laravel Blade
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Installation
+1.Clone the repository:
+git clone https://github.com/your-username/agency.git
+cd agency
 
-### Premium Partners
+2.Install dependencies:
+composer install
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+3.Configure the environment:
+cp .env.example .env
+php artisan key:generate
 
-## Contributing
+4.Launch the local server:
+php artisan serve
+The application will be accessible at http://127.0.0.1:8000. No database setup or migrations are necessary.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Contact Form Activation
+The contact form is integrated with SB Forms, a service provided by Start Bootstrap.
 
-## Code of Conduct
+1.To enable form submissions:Visit https://startbootstrap.com/solution/contact-forms
+2.Begin the 10-day free trial (no credit card required)
+3.Copy your API token from the dashboard
+4.Replace the placeholder in resources/views/pages/contact.blade.php:
+data-sb-form-api-token="your_actual_token_here"
+All submissions will be securely processed and available for review in your SB Forms account.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Typography and Fonts
+The project loads fonts directly from Google Fonts:
+. Montserrat (weights 400 and 700) for all headings and navigation elements
+. Roboto Slab (weights 300 and 400) for paragraph text and subheadings
+Font files are served via optimized WOFF2 formats with unicode-range support for Latin, Latin Extended, Cyrillic, Greek, and Vietnamese character sets, ensuring fast, efficient loading.
 
-## Security Vulnerabilities
+Design Philosophy
+This implementation adheres to the principle that clarity is the highest form of elegance. Every visual decision—spacing, color, motion, hierarchy—is made to support content, not distract from it. The dark theme provides contrast and focus; the golden accent signals interactivity without overwhelming; animations are purposeful, not decorative.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Assets and Licensing
+. All imagery and icons are sourced from the original Start Bootstrap Agency theme under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+. Font assets are served via Google Fonts and remain subject to their respective licensing terms.
+. The base template is adapted under the MIT License.
+. Custom enhancements and structural modifications are proprietary but released under the same permissive license.
 
-## License
+License
+This work is derived from the Start Bootstrap Agency theme, originally licensed under the MIT License.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Copyright © 2025 Izzdden S. R. Alnouno
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Author
+Izzdden S. R. Alnouno
+Email: azalden12390@gmail.com
+GitHub: https://github.com/your-username
+
+| Crafted with precision, restraint, and attention to detail.
