@@ -25,7 +25,7 @@ class TeamSection extends Component
             [
                 'name' => 'Parveen Anand',
                 'role' => 'Lead Designer',
-                'image' => 'assets/img/team/1.jpg',
+                'image' => 'team-1.jpg',
                 'social' => [
                     'twitter' => '#',
                     'facebook' => '#',
@@ -35,7 +35,7 @@ class TeamSection extends Component
             [
                 'name' => 'Diana Petersen',
                 'role' => 'Lead Marketer',
-                'image' => 'assets/img/team/2.jpg',
+                'image' => 'team-2.jpg',
                 'social' => [
                     'twitter' => '#',
                     'facebook' => '#',
@@ -45,7 +45,7 @@ class TeamSection extends Component
             [
                 'name' => 'Larry Parker',
                 'role' => 'Lead Developer',
-                'image' => 'assets/img/team/3.jpg',
+                'image' => 'team-3.jpg',
                 'social' => [
                     'twitter' => '#',
                     'facebook' => '#',
@@ -60,6 +60,7 @@ class TeamSection extends Component
      */
     public function render()
     {
-        return view('components.team-section');
+        $members = $this->members;
+        return view('components.team-section',compact('members'));
     }
 }

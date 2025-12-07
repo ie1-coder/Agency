@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Services Page Header -->
-    <header class="page-header bg-primary text-white text-center py-5 mt-4">
+    <header class="page-header bg-primary text-white text-center py-5 mt-4"  style="background: #feb536f3;">
         <div class="container">
             <h1 class="display-4 fw-bold text-uppercase">Our Services</h1>
             <p class="lead mt-3 opacity-90">
