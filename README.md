@@ -24,6 +24,7 @@ No database is required. The entire structure leverages Laravel’s templating s
 ---
 
 ## Project Structure
+
 /resources
 └── views/
 ├── layouts/
@@ -38,7 +39,7 @@ No database is required. The entire structure leverages Laravel’s templating s
 ├── about.blade.php # Animated vertical timeline
 ├── team.blade.php # Blade component: reusable team member cards
 └── contact.blade.php # SB Forms–ready contact form
-
+--
 /public
 ├── css/styles.css # Custom, cohesive stylesheet
 ├── js/scripts.js
@@ -112,7 +113,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 #  Author
-Izzdden S. R. Alnouno
-Email: azalden12390@gmail.com
-GitHub: https://github.com/ie1-coder
+. Izzdden S. R. Alnouno
+. Email: azalden12390@gmail.com
+. GitHub: https://github.com/ie1-coder
 
